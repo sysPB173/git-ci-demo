@@ -16,5 +16,5 @@ TEST_CASE("Factorial testing", "[factorial]") {
     CHECK(MyMath::factorial(3) == 6);
     CHECK(MyMath::factorial(10) == 3628800);
     CHECK(MyMath::factorial(-1) == 0);
-    CHECK(MyMath::factorial(20) == 2432902008176640000ll); // number is artificially cut
+    CHECK(MyMath::factorial(19) == 2432902008176640000ll); // number is artificially cut
 }
